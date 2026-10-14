@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="sq">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Kontakt — HanaLumen</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container topbar">
+      <h1 class="brand">HanaLumen</h1>
+      <nav>
+        <a href="/">Home</a>
+        <a href="/about.html">Rreth nesh</a>
+        <a href="/products.html">Koleksioni</a>
+        <a href="/contact.html">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container contact-page">
+    <h2>Na Kontaktoni</h2>
+    <p>Na shkruani për porosi, çmime ose pyetje të tjera.</p>
+
+    <section class="contact-blocks">
+      <div class="contact-form">
+        <form action="https://formspree.io/f/your-form-id" method="POST">
+          <label>Emri (i plotë)
+            <input type="text" name="name" required>
+          </label>
+          <label>Email
+            <input type="email" name="email" required>
+          </label>
+          <label>Mesazhi
+            <textarea name="message" rows="5" required></textarea>
+          </label>
+          <button class="btn" type="submit">Dërgo</button>
+        </form>
+        <p class="muted">Nëse nuk dëshiron të përdorësh Formspree, zëvendëso action me mailto:your-email@example.com ose më jep emailin dhe unë e konfiguroj.</p>
+      </div>
+
+      <aside class="contact-info">
+        <h4>Informacioni</h4>
+        <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+        <p>WhatsApp: <a href="#">+355 6X XXX XXXX</a></p>
+        <p>Instagram: <a href="#">@hanaartworks</a></p>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© 2026 HanaLumen</div>
+  </footer>
+</body>
+</html>
